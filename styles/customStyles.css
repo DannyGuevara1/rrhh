@@ -1,0 +1,20 @@
+.html-content{
+    color: white;
+}
+span{
+    color: #505558 !important; 
+}
+strong{
+    color: #505558 !important; 
+}
+@media(prefers-color-scheme: dark){
+    .html-content{
+        color: white;
+    }
+    span{
+        color: white !important; 
+    }
+    strong{
+        color: white !important; 
+    }
+}

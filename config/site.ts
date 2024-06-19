@@ -9,54 +9,26 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
+      label: "Ofertas de trabajo",
+      href: "/home/docs",
     },
     {
       label: "About",
-      href: "/about",
+      href: "/home/about",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Login",
+      href: "/login",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Plazas",
+      href: "/home/docs",
     },
     {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "About",
+      href: "/home/about",
     },
   ],
   links: {
@@ -67,3 +39,40 @@ export const siteConfig = {
     sponsor: "https://patreon.com/jrgarciadev",
   },
 };
+
+export const DashboardListPage = {
+  name: "Dashboard",
+  descripcion: "Pagina de inicio",
+  navItems: [
+    {
+      label: "Descripción de los Puestos de Trabajo",
+      href: "/dashboard/JobsDescriptor",
+      icon: "icons.scale",
+      key: "autoscaling",
+    },
+    {
+      label: "Proceso de Reclutamiento",
+      href: "#",
+      icon: "icons.activity",
+      key: "usage_metrics",
+    },
+    {
+      label: "Seguimiento de Candidatos",
+      href: "#",
+      icon: "icons.flash",
+      key: "production_ready",
+    },
+    {
+      label: "Pruebas de Selección",
+      href: "#",
+      icon: "icons.server",
+      key: "99_uptime",
+    },
+    {
+      label: "Expediente de los Trabajadores",
+      href: "#",
+      icon: "icons.user",
+      key: "supreme_support",
+    },
+  ],
+}
